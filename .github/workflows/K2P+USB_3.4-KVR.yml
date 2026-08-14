@@ -439,12 +439,12 @@ jobs:
         sudo ./build_firmware_modify $TNAME 0
         sudo mv -f images/*.trx /opt/images/K2P+USB_3.4.3.9-099.trx
         cp -f .config /opt/images/${TNAME}.config
-        echo "build_time=$(date '+%Y-%m-%d_%H:%M' | jq -sRr @uri)" >> $GITHUB_ENV
-        echo "tag=$(date '+%Y-%m-%d_%H:%M')" >> $GITHUB_ENV
+        echo "time=$(date '+%Y-%m-%d_%H︰%M' | jq -sRr @uri)" >> $GITHUB_ENV
+        echo "date=$(date '+%Y-%m-%d')" >> $GITHUB_ENV
     - name : Upload packages
       uses: actions/upload-artifact@master
       with:
-        name: K2P+USB_3.4-KVR-${{ env.build_time }}
+        name: K2P+USB_3.4-KVR-${{ env.date }}
         path: /opt/images
 
     - name: Release
@@ -455,5 +455,5 @@ jobs:
            > ## 
                   此固件由K2P-SUB配置文件修改参数 用于WIA3300-10
            
-        tag_name: WIA3300-10_3.4-KVR_${{ env.tag }}
+        tag_name: WIA3300-10_3.4-KVR_${{ env.time }}
         files: /opt/images/*
