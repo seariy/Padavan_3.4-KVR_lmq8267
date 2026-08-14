@@ -452,7 +452,7 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        body:  >  此固件由 K2P-USB配置文件修改参数编译  用于WIA3300-10
+        body:  此固件由 K2P-USB配置文件修改参数编译  用于WIA3300-10
            
         tag_name: WIA3300-10_3.4-KVR_${{ env.time }}
         files: /opt/images/*.trx
