@@ -1,12 +1,12 @@
 # Padavan-KVR #
 
-默认地址             账号密码                  wifi名称                 wifi密码
-
-192.168.2.1         admin/admin              PDCN/PDCN-5G             1234567890
-
 ![](https://views.whatilearened.today/views/github/lmq8267/padavan-KVR.svg)[![](https://deepwiki.com/badge.svg)](https://deepwiki.com/lmq8267/padavan-KVR)
 
 ![](./main.jpg)
+
+##   默认地址            账号密码             wifi名称               wifi密码
+
+##   192.168.2.1         admin/admin          PDCN/PDCN-5G           1234567890
 
 修改自己想要的背景图：刷机之后在`/etc/storage/`新建`bg`文件夹 ，里面放一个`wood.jpg`照片就行。 **`/etc/storage/bg/wood.jpg`**
 
