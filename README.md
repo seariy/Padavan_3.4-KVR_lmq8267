@@ -4,8 +4,8 @@
 
 ![](./main.jpg)
 
-##  默认地址 ：  192.168.2.1    ======  账号密码 ：  admin/admin
-##  wifi名称 ：  PDCN/PDCN-5G   ======  wifi密码 ：  1234567890
+##  默认地址 ： 192.168.2.1    ======   账号密码 ： admin/admin
+##  wifi 名称 ： PDCN/PDCN-5G   ======  wifi 密码 ： 1234567890
 
 ### 修改自己想要的背景图：刷机之后在`/etc/storage/`新建`bg`文件夹 ，里面放一个`wood.jpg`照片就行。 **`/etc/storage/bg/wood.jpg`**
 
