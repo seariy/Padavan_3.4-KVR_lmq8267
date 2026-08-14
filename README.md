@@ -4,15 +4,19 @@
 
 ![](./main.jpg)
 
-##   默认地址            账号密码             wifi名称               wifi密码
+##   默认地址   ：  192.168.2.1
 
-##   192.168.2.1         admin/admin          PDCN/PDCN-5G           1234567890
+##   账号密码   ：  admin/admin
 
-修改自己想要的背景图：刷机之后在`/etc/storage/`新建`bg`文件夹 ，里面放一个`wood.jpg`照片就行。 **`/etc/storage/bg/wood.jpg`**
+##   wifi名称   ：  PDCN/PDCN-5G
 
-[修改自己想要的LOGO](/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/asus_logo.png) 替换asus_logo.png文件就行(像素尺寸要求150×70）
+##   wifi密码   ：  1234567890
 
-[修改默认管理地址wifi名称账号密码](trunk/user/shared/defaults.h) 
+### 修改自己想要的背景图：刷机之后在`/etc/storage/`新建`bg`文件夹 ，里面放一个`wood.jpg`照片就行。 **`/etc/storage/bg/wood.jpg`**
+
+### [修改自己想要的LOGO](/trunk/user/www/n56u_ribbon_fixed/bootstrap/img/asus_logo.png) 替换asus_logo.png文件就行(像素尺寸要求150×70）
+
+### [修改默认管理地址wifi名称账号密码](trunk/user/shared/defaults.h) 
 
 默认/tmp分区改为100M[修改/tmp分区大小size_tmp="100M"](trunk/user/scripts/dev_init.sh)
 
