@@ -1,15 +1,15 @@
 /* TP-LINK WDR7300 */
 
-#define BOARD_PID			"WDR7300"
-#define BOARD_NAME			"WDR7300"
-#define BOARD_DESC			"TP-LINK WDR7300 Wireless Router"
-#define BOARD_VENDOR_NAME	"TP-LINK"
-#define BOARD_VENDOR_URL		"https://www.tp-link.com.cn/"
-#define BOARD_MODEL_URL		"https://www.tp-link.com.cn/"
+#define BOARD_PID			"WN552K1"
+#define BOARD_NAME			"WN552K1"
+#define BOARD_DESC			"Wavlink WN552K1 Wireless Router"
+#define BOARD_VENDOR_NAME	"Wavlink"
+#define BOARD_VENDOR_URL		"https://www.Wavlink.com/"
+#define BOARD_MODEL_URL		"https://www.Wavlink.com/"
 #define BOARD_BOOT_TIME		30
 #define BOARD_FLASH_TIME		120
 #undef BOARD_GPIO_BTN_FN1
-#define BOARD_GPIO_BTN_RESET	8
+#define BOARD_GPIO_BTN_RESET	18
 #undef BOARD_GPIO_BTN_WPS
 #undef  BOARD_GPIO_LED_ALL
 #undef  BOARD_GPIO_LED_WIFI
