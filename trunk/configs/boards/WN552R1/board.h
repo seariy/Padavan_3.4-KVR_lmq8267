@@ -3,7 +3,7 @@
 #define BOARD_PID			"WN552R1"
 #define BOARD_NAME			"WN552R1"
 #define BOARD_DESC			"Wavlink WN552R1 Wireless Router"
-#define BOARD_VENDOR_NAME	"WAVLINK"
+#define BOARD_VENDOR_NAME	"Wavlink"
 #define BOARD_VENDOR_URL		"https://www.wavlink.com/"
 #define BOARD_MODEL_URL		"https://www.wavlink.com/"
 #define BOARD_BOOT_TIME		30
